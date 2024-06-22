@@ -1,0 +1,25 @@
+.df {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  gap: 30px;
+}
+
+h2 {
+  margin-top: 15px;
+}
+
+.createbtn {
+  width: 450px;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 6px;
+  background-color: #36A420;
+  border: 1px solid #36A420;
+  color: #FFFFFF;
+  font-size: 17px;
+}
+
+.createbtn:hover {
+  opacity: 85%;
+}

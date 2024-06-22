@@ -1,0 +1,69 @@
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+.login .form {
+  padding: 50px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 8px rgb(181, 180, 180);
+          box-shadow: 0 0 8px rgb(181, 180, 180);
+}
+.login .form h2 {
+  margin-bottom: 50px;
+}
+.login .form span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+}
+.login .form span input {
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 15px;
+}
+.login .form .loginbtn {
+  width: 500px;
+  padding: 15px;
+  margin-top: 40px;
+  background-color: dodgerblue;
+  color: #FFFFFF;
+  border: 1px solid dodgerblue;
+  border-radius: 6px;
+  font-size: 19px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.login .form .loginbtn:hover {
+  opacity: 85%;
+}
+.login .form .register {
+  width: 500px;
+  padding: 15px;
+  background-color: #36A420;
+  color: #FFFFFF;
+  border: 1px solid #36A420;
+  border-radius: 6px;
+  font-size: 19px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-top: 30px;
+}
+.login .form .register:hover {
+  opacity: 85%;
+}
